@@ -9,7 +9,7 @@ num_classes=10;           % 2 classes
 % load Training Data
 fprintf('loading data ...\n')
 load('MNIST.mat');
-m=size(X, 1);
+m=size(X, 1); % number of examples
 
 % visualize random instances of training data
 sel = randperm(size(X, 1)); 
